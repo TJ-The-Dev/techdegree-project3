@@ -1,0 +1,249 @@
+header {
+    color: white;
+    background-color: black;
+    padding: 10%;
+    text-align: center;
+    font-size: x-large;
+}
+h1 {
+    text-align: center;
+    font-size: large;
+}
+legend {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+p {
+    margin-bottom: 0%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+
+.hr1 {
+    height: 5px;
+    width: 95%;
+    color: black;
+    background-color: black;
+    margin-bottom: 1%;
+}
+.hr2 {
+    height: 2px;
+    width: 95%;
+    color: grey;
+    background-color: grey;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+
+h2 {
+    margin-top: 1%;
+    font-size: large;
+    padding-top: 10%;
+    border-top: solid gray;
+}
+
+fieldset {
+    border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="zip"],
+input[type="address"],
+input[type="city"],
+textarea,
+select
+ {
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 90%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  margin-bottom: 30px;
+  margin-top: 2%;
+}
+input:focus {
+    background: yellow;
+}
+
+input::placeholder {
+    text-align: right;
+}
+
+.light {
+    padding-left: 3%;
+}
+
+#bio {
+    margin-bottom: 5%;
+}
+#select {
+    text-align: left;
+}
+#other {
+    text-align: left;
+}
+
+button {
+    padding: 7%;
+    color: #FFF;
+    background-color: #46dae1;
+    font-size: 25px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #46dae1;
+    margin-bottom: 10px;
+  }
+  
+
+h4 {
+    text-align: left;
+}
+h5 {
+    color: rgb(193, 193, 193);
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+}
+
+.hr3 {
+    margin-bottom: 5%;
+    height: 2px;
+    width: 95%;
+    color: black;
+    background-color: black;
+}
+
+@media screen and (min-width: 768px) {
+
+header {
+    width: 100%;
+    padding: 3%;
+}
+h1 {
+    padding-top: 4%;
+}
+p {
+    padding-bottom: 5%;
+}
+
+fieldset {
+    margin: 15%;
+}
+
+#zip {
+    width: 23%;
+}
+
+#zip-code {
+    width: 30%;
+}
+
+label {
+    width: 30%;
+}
+.labels {
+    display: flex;
+    align-items: baseline;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="zip"],
+input[type="address"],
+input[type="city"],
+textarea,
+select
+ {
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 90%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  margin-bottom: 30px;
+  margin-top: 0%;
+}
+input:focus {
+    background: yellow;
+}
+
+#bio {
+    width: 93%;
+    margin-bottom: 5%;
+}
+
+button {
+    padding: 2%;
+    color: #FFF;
+    background-color: #46dae1;
+    font-size: 25px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #46dae1;
+    margin-bottom: 10px;
+  }
+
+  h5 {
+    color: rgb(193, 193, 193);
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+}
+
+.hr1 {
+    height: 5px;
+    width: 65%;
+    color: black;
+    background-color: black;
+    margin-bottom: 1%;
+}
+.hr2 {
+    height: 2px;
+    width: 65%;
+    color: grey;
+    background-color: grey;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+
+.hr3 {
+    margin-bottom: 5%;
+    height: 2px;
+    width: 65%;
+    color: black;
+    background-color: black;
+}
+h5 {
+    margin-top: 0%;
+}
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
