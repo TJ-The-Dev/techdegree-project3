@@ -1,3 +1,8 @@
+*
+{
+    font-family: serif, 'Merriweather';
+}
+
 header {
     color: white;
     background-color: black;
@@ -137,11 +142,12 @@ p {
 }
 
 fieldset {
-    margin: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 #zip {
-    width: 23%;
+    width: 24%;
 }
 
 #zip-code {
@@ -185,6 +191,7 @@ input:focus {
 #bio {
     width: 93%;
     margin-bottom: 5%;
+    margin-top: 2%;
 }
 
 button {
@@ -231,6 +238,20 @@ button {
     background-color: black;
 }
 h5 {
+    margin-top: 0%;
+}
+#state {
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 95%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    margin-bottom: 30px;
     margin-top: 0%;
 }
 
