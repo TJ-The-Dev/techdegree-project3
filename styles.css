@@ -86,7 +86,7 @@ input::placeholder {
     display: flex;
 }
 input:focus {
-    background-color: yellow;
+    background-color: grey;
 }
 
 
@@ -98,6 +98,7 @@ input:focus {
     margin-top: 3%;
     margin-bottom: 5%;
     padding-bottom: 8%;
+    border: grey solid 1px;
 }
 #select {
     text-align: left;
@@ -139,7 +140,7 @@ h5 {
 }
 textarea:focus {
     color: black;
-    background-color: yellow;
+    background-color: green;
 }
 
 @media screen and (min-width: 768px) {
@@ -199,7 +200,7 @@ select
   margin-top: 0%;
 }
 input:focus {
-    background-color: yellow;
+    background-color: green;
 }
 
 #bio {
