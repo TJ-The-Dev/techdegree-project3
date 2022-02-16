@@ -140,7 +140,7 @@ h5 {
 }
 textarea:focus {
     color: black;
-    background-color: green;
+    background-color: lightblue;
 }
 
 @media screen and (min-width: 768px) {
@@ -200,7 +200,7 @@ select
   margin-top: 0%;
 }
 input:focus {
-    background-color: green;
+    background-color: lightblue;
 }
 
 #bio {
